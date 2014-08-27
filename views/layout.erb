@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="styles.css"/>
+    <title>Slacker News</title>
+  </head>
+  <body>
+  <div class="container">
+
+    <div class="navigation-bar">
+      <ul>
+        <li id="fcombo"><strong>F</strong></li>
+        <li><strong>Slacker News</strong></li>
+        <li> | </li>
+        <li><a href="/" id = '/'>new</a></li>
+        <li> | </li>
+        <li><a href="#">Being A Slacker</a></li>
+        <li> | </li>
+        <li><a href="/morenews">submit</a></li>
+        <li></li>
+        <li id="log"><a href="# id = "link"">login</a></li>
+      </ul>
+    </div>
+
+   <%= yield %>
+
+    <div class="footer">
+        <ul>
+        <li><a href="#"</a> | <a href="#">FAQ</a></li> | <a href="#">Lists</a> | <a href="#">Bookmarklet</a> | <a href="#">DMCA</a> | <a href="#">News News</a> | <a href="#">Bugs and Feature Requests</a> | <a href="#">F Combinator</a> | <a href="#">Apply</a> | <a href="#">Library</a> | <a href="#">Contact</a></li>
+      </ul>
+    </div>
+
+    <div class="search">
+      <li>Search:</li>
+      <form>
+        <input id="search-box" type="text" placeholder=" " required>
+      </form>
+    </div>
+  </div>
+</body>
+
+
+</html>

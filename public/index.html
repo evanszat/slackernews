@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="styles.css"/>
+    <title>Slacker News</title>
+  </head>
+  <body>
+  <div class="container">
+
+    <div class="navigation-bar">
+      <ul>
+        <li id="fcombo"><strong>F</strong></li>
+        <li><strong>Slacker News</strong></li>
+        <li> | </li>
+        <li><a href="#" id = "link">new</a></li>
+        <li> | </li>
+        <li><a href="#" id = "link">coments</a></li>
+        <li> | </li>
+        <li><a href="#" id = "link">show</a></li>
+        <li> | </li>
+        <li><a href="#" id = "link">ask</a></li>
+        <li> | </li>
+        <li><a href="#" id = "link">jobs</a></li>
+        <li> | </li>
+        <li><a href="#" id = "link">submit</a></li>
+        <li> | </li>
+        <li><a href="#" id = "link">Article Form</a></li>
+        <li id="log"><a href="# id = "link"">login</a></li>
+      </ul>
+    </div>
+
+    <ul>
+      <% @articles.each do |article| %>
+        <li><%= article %></li>
+      <% end %>
+    </ul>
+
+    <div class="footer">
+        <ul>
+        <li><a href="#"</a></li>
+        <li> | </li>
+        <li><a href="#">FAQ</a></li>
+        <li> | </li>
+        <li><a href="#">Lists</a></li>
+        <li> | </li>
+        <li><a href="#">Bookmarklet</a></li>
+        <li> | </li>
+        <li><a href="#">DMCA</a></li>
+        <li> | </li>
+        <li><a href="#">News News</a></li>
+        <li> | </li>
+        <li><a href="#">Bugs and Feature Requests</a></li>
+        <li> | </li>
+        <li><a href="#">F Combinator</a></li>
+        <li> | </li>
+        <li><a href="#">Apply</a></li>
+        <li> | </li>
+        <li><a href="#">Library</a></li>
+        <li> | </li>
+        <li><a href="#">Contact</a></li>
+      </ul>
+    </div>
+
+    <div class="search">
+      <li>Search:</li>
+      <form>
+        <input id="search-box" type="text" placeholder=" " required>
+      </form>
+    </div>
+  </div>
+</body>
+
+
+</html>
